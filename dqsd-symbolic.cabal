@@ -68,6 +68,7 @@ library
 
     -- Other library packages from which modules are imported.
     build-depends:    base ^>=4.16.4.0
+                    , dqsd-classes
 
     -- Directories containing source files.
     hs-source-dirs:   src
