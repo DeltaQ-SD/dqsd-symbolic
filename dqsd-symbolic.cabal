@@ -58,7 +58,7 @@ library
     import:           warnings
 
     -- Modules exported by the library.
-    exposed-modules:  MyLib
+    exposed-modules:  DeltaQ.Symbolic
 
     -- Modules included in this library but not exported.
     -- other-modules:
@@ -67,7 +67,7 @@ library
     -- other-extensions:
 
     -- Other library packages from which modules are imported.
-    build-depends:    base ^>=4.16.4.0
+    build-depends:    base
                     , dqsd-classes
 
     -- Directories containing source files.
